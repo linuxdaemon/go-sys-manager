@@ -1,0 +1,7 @@
+builds:
+  - main: ./cmd/sys-manager
+    goos:
+      - linux
+      - windows
+    goarch:
+      - amd64
